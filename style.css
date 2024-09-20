@@ -7,6 +7,8 @@
 /* Hier können Stiele für die ganze Webseite angegeben werden. */
 body {
     margin: 0;
+    background-color: rgb(230, 244, 255);
+    color: rgb(11, 156, 142);
 }
 
 /* Hier werden 2 Elemente nebeneinander gepackt.
@@ -29,4 +31,8 @@ body {
 .text-and-img img {
     border-radius: 2rem; /* Damit können die Ecken abgerundet werden. */
     width: 100%; /* Braucht es damit das Bild im Container bleibt und nicht viel zu gross ist. */
+}
+
+.image img {
+    width: 100%;
 }
