@@ -20,20 +20,26 @@
 
             <svg height="300" width="300">
                 <circle
-                    cx="200"
-                    cy="200"
-                    r="90"
-                    fill="transparent"
-                    stroke="pink"
-                    stroke-width="20"
-                />
-                <circle
                     cx="150"
-                    cy="150"
+                    cy="170"
                     r="90"
-                    stroke="pink"
-                    stroke-width="20"
+                    fill="Yellow"
+                    stroke="black"
+                    stroke-width="10"
                 />
+
+                <ellipse cx="120" cy="140" rx="15" ry="10" fill="black">
+                <animate attributeName="ry" values="17;1;17" dur="2s" repeatCount="indefinite"/>
+                </ellipse>
+                <circle cx="180" cy="140" r="15" fill="black" />
+                <clipPath id="clip-circle">
+                <circle cx="150" cy="180" r="35" fill="black" />
+                </clipPath>
+                <rect x="50" y="170" width="300" height="200" 
+                clip-path="url(#clip-circle)">
+        
+            
+               
             </svg>
         </header>
 
